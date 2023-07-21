@@ -1,0 +1,38 @@
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Si te vas, cambio</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+		$(function () {
+			var message = "No me dejes :,)";
+			var original = document.title;
+
+			$(window).blur(function () {
+				var title = $('title').text();
+				if (title != message) {
+					original = title;
+				}
+				document.title = message;
+			});
+
+			$(window).focus(function () {
+				document.title = original;
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h1>Cambio de titulo al salir de la pestaña</h1>
+	<p>Funcion para cambiar el titulo de la web al abrir/cambiar de pestaña con jquery</p>
+
+	<p>Metodo .focus(): <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus" target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus</a></p>
+	<p>Evento .blur(): <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event" target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event</a></p>
+</body>
+
+</html>
