@@ -6,7 +6,7 @@ This is a simple jQuery function that allows you to dynamically change the web p
 
 ## Demo
 
-[See the live demo here](https://your-username.github.io/change-web-title-when-switching/)
+[See the live demo here]([https://your-username.github.io/change-web-title-when-switching/](https://madejtax.github.io/change-web-title-when-switching/))
 
 ## Installation
 
