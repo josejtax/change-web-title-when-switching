@@ -23,4 +23,4 @@ Contributions are welcome! If you find any issues or want to improve the code, f
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, you can reach me at hola@jmfernandez.dev
+If you have any questions, suggestions, or feedback, you can reach me at [jose@jtax.dev](mailto:jose@jtax.dev).
